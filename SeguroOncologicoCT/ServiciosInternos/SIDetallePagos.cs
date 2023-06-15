@@ -28,7 +28,7 @@ namespace ServiciosInternos
                     lstDetallePagos.Add(new DetallePagos
                     {
                         //IdDetallePagos = Convert.ToInt32(dt["IdDetallePagos"]),
-                        IdDetallePagos= Convert.ToInt32(dt["IdDetallePagos"].ToString()),
+                        IdDetallePagos= Convert.ToInt32(dt["IdPagos"].ToString()),
                         IdPagos=Convert.ToInt32(dt["IdPagos"].ToString()),
                         FechaRegistro= Convert.ToDateTime(dt["FechaRegistro"].ToString()),
                         Observaciones=dt["Observaciones"].ToString(),

@@ -27,7 +27,7 @@ namespace ServiciosInternos
                     lstDocumentoPago.Add(new DocumentoPago
                     {
                         //IdDocumentoPago = Convert.ToInt32(dt["IdDocumentoPago"]),
-                        IdDocumentoPago= Convert.ToInt32(dt["IdDocumentoPago"].ToString()),
+                        IdDocumentoPago= Convert.ToInt32(dt["IdDocumento"].ToString()),
                         idPago=Convert.ToInt32(dt["idPago"].ToString()),
                         Codigo=dt["Codigo"].ToString(),
                         ImporteTotal= Convert.ToDecimal(dt["ImporteTotal"].ToString()),

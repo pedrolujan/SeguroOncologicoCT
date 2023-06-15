@@ -28,7 +28,7 @@ namespace ServiciosInternos
                     lstPagos.Add(new Pagos
                     {
                         //IdPagos = Convert.ToInt32(dt["IdPagos"]),
-                        IdPagos= Convert.ToInt32(dt["IdPagos"].ToString()),
+                        IdPagos= Convert.ToInt32(dt["IdPago"].ToString()),
                         IdCronograma=Convert.ToInt32(dt["IdCronograma"].ToString()),
                         FechaPago= Convert.ToDateTime(dt["FechaPago"].ToString()),
                         IdMoneda=Convert.ToInt32(dt["IdMoneda"].ToString()),
